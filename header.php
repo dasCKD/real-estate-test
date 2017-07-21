@@ -17,22 +17,7 @@
 		define('DB_PASS', '');
 		define('DB_NAME', 'test');
 /*
-we are now officially testing
-		$connection = mysql_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME) or die(mysql_error());
-		mysql_select_db(DB_NAME) or die(mysql_error());
-		/*
-		function small_print() {
-			$query = mysql_query("SELECT * FROM `text` WHERE ID='1'") or die(mysql_error());
-			while($post = mysql_fetch_assoc($query)) {
-				echo $post['content'];
-			}
-		}
-		function navbar() {
-			$query = mysql_query("SELECT * FROM navbar") or die(mysql_error());
-			while($post = mysql_fetch_assoc($query)) {
-				echo "<a href=" . $post['link'] . ">" . $post['slug'] . "</a>";
-			}
-		}
+		The unecessary database access has been removed
 	*/
 	?>
 </head>
