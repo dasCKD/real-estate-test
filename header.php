@@ -16,9 +16,7 @@
 		define('DB_USER', 'root');
 		define('DB_PASS', '');
 		define('DB_NAME', 'test');
-/*
-		The unecessary database access has been removed
-	*/
+		//The unecessary database access has been removed
 	?>
 </head>
 <body>
