@@ -12,10 +12,7 @@
 	<script src="js/bootstrap.min.js" type="text/javascript"></script>
     <link rel="shortcut icon" href="logo_2.png">
 	<?php
-		define('DB_HOST', 'localhost');
-		define('DB_USER', 'root');
-		define('DB_PASS', '');
-		define('DB_NAME', 'test');
+		//The unecessary php definitions have been removed
 		//The unecessary database access has been removed
 	?>
 </head>
